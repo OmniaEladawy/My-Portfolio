@@ -37,3 +37,9 @@
     transition: all 0.3s ease-out 0s;
     display: none;
  }
+
+ @media only screen and (min-width: 600px) {
+    .project-pic {
+        height:450px;
+    }
+}

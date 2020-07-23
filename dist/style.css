@@ -21751,6 +21751,12 @@ video {
   display: none;
 }
 
+@media only screen and (min-width: 600px) {
+  .project-pic {
+    height:450px;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
     --space-y-reverse: 0;
