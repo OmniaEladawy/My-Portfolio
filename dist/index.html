@@ -13,7 +13,7 @@
         <!--header-->
         <header class="bg-headfoot h-full text-white"> 
 
-            <div class="flex flex-wrap flex-grow justify-between p-10 container mx-auto">  
+            <div class="flex flex-wrap flex-grow justify-between p-10 container lg:mx-auto">  
                 <!--logo--> 
                 <div class="lg:hover:w-1/3">
                     <a href="index.html" target="_self">
@@ -22,7 +22,7 @@
                     </a>
                 </div>
                 <!--navbar-->
-                <div class="block lg:hidden flex items-center" onclick="toggleNavbar()">
+                <div class="lg:hidden flex items-center" onclick="toggleNavbar()">
                     <button class="flex items-center px-3 py-2 border rounded text-blu border-blu hover:text-white hover:border-white">
                         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                     </button>
@@ -60,7 +60,7 @@
                     <h1 class="font-bold text-4xl"> Hey , I'm Omnia Eladawy </h1>
                     <p class="text-xl mt-20"> Web designer and developer from Egypt . I create custom websites to help businesses do better online. I create custom websites to help businesses do better online.</p>
                     <div class="w-full text-center lg:text-left">
-                        <button onclick="location.href='projects.html'" class="bg-blu mt-20 rounded-full lg:text-xl p-4 font-bold hover:transform hover:scale-110 focus:outline-none"> My Projects </button>
+                        <button onclick="location.href='projects.html'" class="bg-blu mt-20 rounded-full lg:text-2xl p-4 font-bold hover:transform hover:scale-110 focus:outline-none"> My Projects </button>
                     </div>
                 </div>
                 <!--header main photo-->
@@ -80,15 +80,15 @@
                 </div>
                 <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between lg:mt-16">
                     <!--main photo-->
-                    <div class="lg:w-5/6 flex relative project-pic">
+                    <div class="lg:w-5/6 flex relative project-pic mb-16">
                         <div class="hidden lg:block bg-gray-200 rounded-lg w-full h-full"></div>
                         <img class="w-full lg:h-full lg:px-12 rounded-lg mt-12 absolute left-4" src="images/photo_2020-07-08_23-16-02.jpg" alt="website-picture">
                     </div>
                     
                     <!--details-->
-                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-6 mt-56 md:mt-8">
+                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-6 mt-64 sm:-mt-32 md:mt-8">
                         <h4 class="font-bold text-3xl mt-8 lg:mt-5"> Stickit </h4>
-                        <p class="mt-5 w-2/3 mb-8 text-xl w-full"> A light weight Discussion platform with more focus on the php community. </p>
+                        <p class="mt-5 mb-8 text-xl w-full"> A light weight Discussion platform with more focus on the php community. </p>
                         <div class="text-sm">
                             <i class="fa fa-laptop mr-2 fa-lg text-gray-700 text-opacity-75" aria-hidden="true"></i> 
                             <span class="lg:text-lg font-bold text-gray-700 text-opacity-75"> Web Development </span>
@@ -130,7 +130,6 @@
                 <p class="text-center p-10 text-white text-opacity-75"> &copy; 2020 Omnia Eladawy . All Rights reserved.</p>
             </div>
         </footer>
-
         <script src="../src/script.js"></script>
     </body>
 </html>

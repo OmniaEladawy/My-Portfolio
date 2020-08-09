@@ -14,14 +14,32 @@
         <header class="bg-headfoot h-full text-white"> 
             <div class="flex flex-wrap flex-grow justify-between p-10 container mx-auto">  
                 <!--logo--> 
-                <div class="hover:w-1/3">
+                <div class="lg:hover:w-1/3">
                     <a href="index.html" target="_self">
-                        <h1 class="font-Lobster font-bold text-3xl pb-1">Omnia Eladawy</h1>
+                        <h1 class="font-Lobster font-bold text-2xl lg:text-3xl pb-1">Omnia Eladawy</h1>
                         <hr class="border-blu rounded border-2 w-1/5">
                     </a>
                 </div>
                 <!--navbar-->
-                <div>
+                <div class="lg:hidden flex items-center" onclick="toggleNavbar()">
+                    <button class="flex items-center px-3 py-2 border rounded text-blu border-blu hover:text-white hover:border-white">
+                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                    </button>
+                </div>
+                <div id="toggle-navbar" class="w-full hidden flex-grow lg:hidden">
+                    <div class="text-sm lg:flex-grow">
+                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+                        Home
+                    </a>
+                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+                        Projects
+                    </a>
+                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75">
+                        Blog
+                    </a>
+                    </div>
+                </div>
+                <div class="hidden lg:block">
                     <ul class="flex flex-wrap flex-grow text-2xl">
                         <li class="pl-20 hover:no-underline hover:opacity-75">
                             <a href="index.html" target="_self"> Home </a>
@@ -98,5 +116,6 @@
                 <p class="text-center p-10 text-white text-opacity-75"> &copy; 2020 Omnia Eladawy . All Rights reserved.</p>
             </div>
         </footer>
+        <script src="../src/script.js"></script>
     </body>
 </html>
