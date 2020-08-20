@@ -13,7 +13,8 @@
     <body class="font-serif">
         <!--header-->
         <header class="bg-headfoot h-full text-white"> 
-            <div class="flex flex-wrap flex-grow justify-between p-10 container mx-auto">  
+
+            <div class="flex flex-wrap flex-grow justify-between py-10 lg:px-20 px-10 ">  
                 <!--logo--> 
                 <div class="lg:hover:w-1/3">
                     <a href="index.html" target="_self">
@@ -29,87 +30,88 @@
                 </div>
                 <div id="toggle-navbar" class="w-full hidden flex-grow lg:hidden">
                     <div class="text-sm lg:flex-grow">
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
-                        Home
-                    </a>
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
-                        Projects
-                    </a>
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75">
-                        Blog
-                    </a>
+                        <a href="index.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+                            Home
+                        </a>
+                        <a href="projects.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+                            Projects
+                        </a>
+                        <a href="blog.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75">
+                            Blog
+                        </a>
                     </div>
                 </div>
                 <div class="hidden lg:block">
                     <ul class="flex flex-wrap flex-grow text-2xl">
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="index.html" target="_self"> Home </a>
+                        <li class="pl-20 hover:no-underline">
+                            <a href="index.html" target="_self" class="hover:opacity-75"> Home </a>
                         </li>
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="projects.html" target="_self"> Projects </a>
+                        <li class="pl-20 hover:no-underline">
+                            <a href="projects.html" target="_self" class="hover:opacity-75"> Projects </a>
                         </li>
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="blog.html" target="_self"> Blog </a>
+                        <li class="pl-20 hover:no-underline">
+                            <a href="blog.html" target="_self" class="hover:opacity-75"> Blog </a>
                         </li>
                     </ul>
                 </div>
             </div>
             <!--header text-->
-            <div class="flex flex-grow justify-between container mx-auto pb-10">   
-                <div class="mt-24 w-1/2 mx-auto">
-                    <h4 class="text-3xl  text-center text-white text-opacity-75 font-bold"> Blog </h4>
-                    <h1 class="font-bold text-4xl text-center mt-5"> SEO Basics for Small Business Websites </h1>
-                    <p class="text-2xl mt-5 text-center text-white text-opacity-75"> 17th July , 2020 </p>
+            <div class="flex flex-grow justify-between lg:pr-0 pb-12">   
+                <div class="md:mt-32 mt-20 w-1/2 mx-auto">
+                    <h1 class="font-bold lg:text-6xl text-center text-4xl md:text-5xl"> Blog </h1>
+                    <h1 class="font-bold lg:text-4xl md:text-3xl text-2xl text-center mt-10 lg:mt-5"> SEO Basics for Small Business Websites </h1>
+                    <p class="md:text-2xl text-xl mt-10 text-center text-white lg:mt-5 text-opacity-75"> 17th July , 2020 </p>
                 </div>
-        </header>
+            </div>
+        </header>  
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#191A1D" fill-opacity="1" d="M0,64L1440,256L1440,0L0,0Z"></path></svg>
         <!--main content-->
         <main>
-            <div class="p-10 container mx-auto mt-10">
+            <div class="p-10 container mx-auto mt-12">
                 <!--main photo-->
-                <div class="flex relative mx-auto" style="height:450px; width: 1000px;">
-                    <div class="bg-gray-200 rounded-lg w-full h-full"></div>
-                    <img class="w-full h-full px-12 rounded-lg mt-12 absolute left-4" src="images/P1052772.jpg" alt="website-picture">
+                <div class="w-11/12 flex relative detail-pic mb-64 lg:mb-40 mx-auto" style="width: 100%;">
+                    <div class="hidden lg:block bg-gray-200 rounded-lg w-full h-full"></div>
+                    <img class="w-full lg:h-full lg:px-12 rounded-lg mt-12 absolute left-4" src="images/P1052772.jpg" alt="website-picture">
                 </div>
                 <!--project details-->
-                <div class="w-5/6 ml-32 mt-32"> 
+                <div class="w-5/6 lg:ml-24 ml-10 lg:mt-32 blog-det"> 
                     <!--blog header-->
-                    <p class="text-xl text-black opacity-75 mb-24"> 
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-24"> 
                         Just remember, good SEO takes time to learn. If you don’t fully understand a certain technique or area of SEO, 
                         please take your time to learn about it. If you don’t understand, it’s more than likely you’ll implement something wrong and it’ll, 
                         at the very least, not work. The worst case scenario is it’ll have the opposite effect and make things worse. <br><br>
                         So, without further ado, let’s get to the tips!
                     </p>
                     <!--section 1-->
-                    <h2 class="my-10 font-bold text-3xl"> 
+                    <h2 class="my-10 font-bold md:text-3xl text-2xl"> 
                         1) Creating Intrigue with Meta Descriptions
                     </h2>
-                    <p class="text-xl text-black opacity-75 mb-10">
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">
                         The meta description is the piece of text that shows up below the page title in the SERP (Search Engine Results Page) of Google.
                     </p>
-                    <p class="text-xl text-black opacity-75 mb-10">  
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">  
                         A lot of people look at it as a great way to describe what the page is about. However, what they miss out on doing is creating some intrigue. You can do that by asking a question or leaving the description without a definitive answer.
                     </p>  
-                    <p class="text-xl text-black opacity-75 mb-10">      
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">      
                         What this does is make people want to click on through to the content so they can find out the answer and in-turn start engaging with your site.
                     </p>
-                    <p class="text-xl text-black opacity-75 mb-10">      
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">      
                        <span class="font-bold"> Note: </span> Please take note that this isn’t a “trick” to get people onto your site. If you have poor quality content and you are indeed trying to trick people onto your site, they’ll leave right away. This simply helps the user onto the page, from there it’s up to your content to keep them around.
                     </p>
                     <!--section 2-->
-                    <h2 class="my-10 font-bold text-3xl"> 
+                    <h2 class="my-10 font-bold md:text-3xl text-2xl"> 
                         2) Creating Intrigue with Meta Descriptions
                     </h2>
-                    <p class="text-xl text-black opacity-75 mb-10">
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">
                         The meta description is the piece of text that shows up below the page title in the SERP (Search Engine Results Page) of Google.
                     </p>
-                    <p class="text-xl text-black opacity-75 mb-10">  
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">  
                         A lot of people look at it as a great way to describe what the page is about. However, what they miss out on doing is creating some intrigue. You can do that by asking a question or leaving the description without a definitive answer.
                     </p>  
-                    <p class="text-xl text-black opacity-75 mb-10">      
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">      
                         What this does is make people want to click on through to the content so they can find out the answer and in-turn start engaging with your site.
                     </p>
-                    <p class="text-xl text-black opacity-75 mb-10">      
+                    <p class="sm:text-xl text-lg text-black opacity-75 mb-10">      
                        <span class="font-bold"> Note: </span> Please take note that this isn’t a “trick” to get people onto your site. If you have poor quality content and you are indeed trying to trick people onto your site, they’ll leave right away. This simply helps the user onto the page, from there it’s up to your content to keep them around.
                     </p>
                 </div>
@@ -118,22 +120,22 @@
         <!--footer-->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#191A1D" fill-opacity="1" d="M0,64L1440,256L1440,320L0,320Z"></path></svg>
         <footer class="bg-headfoot text-white">
-            <div class="flex flex-wrap flex-grow justify-between container mx-auto p-16 -mt-12">
+            <div class="flex flex-col lg:flex-row flex-wrap flex-grow justify-between container mx-auto p-16 -mt-12">
                 <div>
                     <p class="font-bold text-4xl mt-4"> Let's Work Together </p>
                 </div>
                 <!--social content-->
-                <div class="pr-24">
+                <div class="pr-24 lg:mt-0 mt-8">
                     <ul>
-                        <li class="mb-5">
+                        <li class="mb-5 flex items-center">
                             <i class="fa fa-envelope fa-sm text-blu mr-2" aria-hidden="true"></i>
                             <span class="text-xl font-bold text-white hover:no-underline hover:opacity-75"> omnia1699@gmail.com </span>
                         </li>
-                        <li class="mb-5">
+                        <li class="mb-5 flex items-center">
                             <i class="fa fa-linkedin-square fa-lg text-blu mr-2" aria-hidden="true"></i>
                             <a class="text-xl font-bold text-white hover:no-underline hover:opacity-75" href="https://www.linkedin.com/in/omnia-eladawy-624847b4/" target="_blank">LinkedIn</a>
                         </li>
-                        <li>
+                        <li class="flex items-center">
                             <i class="fa fa-twitter fa fa-linkedin-square fa-lg text-blu mr-2" aria-hidden="true"></i>
                             <a class="text-xl font-bold text-white hover:no-underline hover:opacity-75" href="https://twitter.com/mony_o3adawy" target="_blank">Twitter</a>
                         </li>

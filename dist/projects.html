@@ -10,71 +10,73 @@
         <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
     </head>
     <body class="font-serif">
-        <!--header-->
-        <header class="bg-headfoot h-full text-white"> 
-            <div class="flex flex-wrap flex-grow justify-between p-10 container mx-auto">  
-                <!--logo--> 
-                <div class="lg:hover:w-1/3">
-                    <a href="index.html" target="_self">
-                        <h1 class="font-Lobster font-bold text-2xl lg:text-3xl pb-1">Omnia Eladawy</h1>
-                        <hr class="border-blu rounded border-2 w-1/5">
-                    </a>
-                </div>
-                <!--navbar-->
-                <div class="lg:hidden flex items-center" onclick="toggleNavbar()">
-                    <button class="flex items-center px-3 py-2 border rounded text-blu border-blu hover:text-white hover:border-white">
-                        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
-                    </button>
-                </div>
-                <div id="toggle-navbar" class="w-full hidden flex-grow lg:hidden">
-                    <div class="text-sm lg:flex-grow">
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+      <!--header-->
+      <header class="bg-headfoot h-full text-white"> 
+
+        <div class="flex flex-wrap flex-grow justify-between py-10 lg:px-20 px-10 ">  
+            <!--logo--> 
+            <div class="lg:hover:w-1/3">
+                <a href="index.html" target="_self">
+                    <h1 class="font-Lobster font-bold text-2xl lg:text-3xl pb-1">Omnia Eladawy</h1>
+                    <hr class="border-blu rounded border-2 w-1/5">
+                </a>
+            </div>
+            <!--navbar-->
+            <div class="lg:hidden flex items-center" onclick="toggleNavbar()">
+                <button class="flex items-center px-3 py-2 border rounded text-blu border-blu hover:text-white hover:border-white">
+                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+                </button>
+            </div>
+            <div id="toggle-navbar" class="w-full hidden flex-grow lg:hidden">
+                <div class="text-sm lg:flex-grow">
+                    <a href="index.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
                         Home
                     </a>
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
+                    <a href="projects.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75 mr-4">
                         Projects
                     </a>
-                    <a href="#responsive-header" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75">
+                    <a href="blog.html" class="block mt-4 text-xl lg:inline-block lg:mt-0 text-white hover:opacity-75">
                         Blog
                     </a>
-                    </div>
-                </div>
-                <div class="hidden lg:block">
-                    <ul class="flex flex-wrap flex-grow text-2xl">
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="index.html" target="_self"> Home </a>
-                        </li>
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="projects.html" target="_self"> Projects </a>
-                        </li>
-                        <li class="pl-20 hover:no-underline hover:opacity-75">
-                            <a href="blog.html" target="_self"> Blog </a>
-                        </li>
-                    </ul>
                 </div>
             </div>
-            <!--header text-->
-            <div class="flex flex-grow justify-between container mx-auto pb-10">   
-                <div class="mt-32 w-1/2 mx-auto">
-                    <h1 class="font-bold lg:text-6xl text-center text-4xl md:text-5xl"> My Projects </h1>
-                    <p class="lg:text-4xl md:text-3xl text-2xl mt-12 text-center text-white text-opacity-75"> Samples of some of my work </p>
-                </div>
-        </header>
+            <div class="hidden lg:block">
+                <ul class="flex flex-wrap flex-grow text-2xl">
+                    <li class="pl-20 hover:no-underline">
+                        <a href="index.html" target="_self" class="hover:opacity-75"> Home </a>
+                    </li>
+                    <li class="pl-20 hover:no-underline">
+                        <a href="projects.html" target="_self" class="hover:opacity-75"> Projects </a>
+                    </li>
+                    <li class="pl-20 hover:no-underline">
+                        <a href="blog.html" target="_self" class="hover:opacity-75"> Blog </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--header text-->
+        <div class="flex flex-grow justify-between lg:pr-0 pb-10">   
+            <div class="md:mt-32 mt-20 w-1/2 mx-auto">
+                <h1 class="font-bold lg:text-6xl text-center text-4xl md:text-5xl"> My Projects </h1>
+                <p class="lg:text-4xl md:text-3xl text-2xl mt-12 text-center text-white text-opacity-75"> Samples of some of my work </p>
+            </div>
+        </div>
+    </header>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#191A1D" fill-opacity="1" d="M0,64L1440,256L1440,0L0,0Z"></path></svg>
         <!--main content-->
         <main>
             <div class="flex flex-col flex-grow justify-between p-10 container mx-auto">
                 <!--project 1-->
-                <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between lg:mt-16">
+
+                <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between mt-20">
                     <!--main photo-->
                     <div class="lg:w-5/6 flex relative project-pic mb-16">
                         <div class="hidden lg:block bg-gray-200 rounded-lg w-full h-full"></div>
                         <img class="w-full lg:h-full lg:px-12 rounded-lg mt-12 absolute left-4" src="images/photo_2020-07-08_23-16-02.jpg" alt="website-picture">
                     </div>
-                    
                     <!--details-->
-                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-6 mt-64 md:mt-8 sm:-mt-32">
-                        <h4 class="font-bold text-3xl mt-8 lg:mt-5"> Stickit </h4>
+                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-16 mt-64 sm:-mt-32 md:mt-0">
+                        <h4 class="font-bold text-3xl mt-20 lg:mt-5 md:mt-5"> Stickit </h4>
                         <p class="mt-5 mb-8 text-xl w-full"> A light weight Discussion platform with more focus on the php community. </p>
                         <div class="text-sm">
                             <i class="fa fa-laptop mr-2 fa-lg text-gray-700 text-opacity-75" aria-hidden="true"></i> 
@@ -85,11 +87,12 @@
                         </div>
                     </div>
                 </div>
+               
                 <!--project 2-->
-                <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between lg:mt-16">
+                <div class="flex flex-col lg:flex-row flex-grow mb-40 justify-between mt-20">
                     <!--details-->
-                    <div class="flex flex-col justify-center lg:ml-10">
-                        <h4 class="font-bold text-3xl mt-8 lg:mt-5"> Stickit </h4>
+                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-56">
+                        <h4 class="font-bold text-3xl mt-20 lg:mt-5 md:mt-5"> Stickit </h4>
                         <p class="mt-5 mb-8 text-xl w-full"> A light weight Discussion platform with more focus on the php community. </p>
                         <div class="text-sm">
                             <i class="fa fa-laptop mr-2 fa-lg text-gray-700 text-opacity-75" aria-hidden="true"></i> 
@@ -99,15 +102,15 @@
                             <button onclick="location.href='projectDetails.html'" style="width:fit-content" class="bg-blu mt-8 rounded-full text-sm lg:text-xl p-4 font-bold hover:transform hover:scale-110 block text-white focus:outline-none"> View Details </button>
                         </div>
                     </div>
-                    
                     <!--main photo-->
-                    <div class="lg:w-5/6 flex relative project-pic mb-64">
+                    <div class="lg:w-5/6 flex relative project-pic mb-56">
                         <div class="hidden lg:block bg-gray-200 rounded-lg w-full h-full"></div>
                         <img class="w-full lg:h-full lg:px-12 rounded-lg mt-12 absolute left-4" src="images/photo_2020-07-08_23-16-02.jpg" alt="website-picture">
                     </div>
                 </div>
+
                 <!--project 3-->
-                <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between lg:mt-16">
+                <div class="flex flex-col lg:flex-row flex-grow mb-32 justify-between mt-40 sm:-mt-40">
                     <!--main photo-->
                     <div class="lg:w-5/6 flex relative project-pic mb-16">
                         <div class="hidden lg:block bg-gray-200 rounded-lg w-full h-full"></div>
@@ -115,8 +118,8 @@
                     </div>
                     
                     <!--details-->
-                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-6 mt-64 md:mt-8 sm:-mt-32">
-                        <h4 class="font-bold text-3xl mt-8 lg:mt-5"> Stickit </h4>
+                    <div class="flex flex-col justify-center lg:ml-10 lg:-mt-16 mt-64 sm:-mt-32 md:mt-0">
+                        <h4 class="font-bold text-3xl mt-20 lg:mt-5 md:mt-5"> Stickit </h4>
                         <p class="mt-5 mb-8 text-xl w-full"> A light weight Discussion platform with more focus on the php community. </p>
                         <div class="text-sm">
                             <i class="fa fa-laptop mr-2 fa-lg text-gray-700 text-opacity-75" aria-hidden="true"></i> 
@@ -132,22 +135,22 @@
         <!--footer-->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#191A1D" fill-opacity="1" d="M0,64L1440,256L1440,320L0,320Z"></path></svg>
         <footer class="bg-headfoot text-white">
-            <div class="flex flex-wrap flex-grow justify-between container mx-auto p-16 -mt-12">
+            <div class="flex flex-col lg:flex-row flex-wrap flex-grow justify-between container mx-auto p-16 -mt-12">
                 <div>
                     <p class="font-bold text-4xl mt-4"> Let's Work Together </p>
                 </div>
                 <!--social content-->
-                <div class="pr-24">
+                <div class="pr-24 lg:mt-0 mt-8">
                     <ul>
-                        <li class="mb-5">
+                        <li class="mb-5 flex items-center">
                             <i class="fa fa-envelope fa-sm text-blu mr-2" aria-hidden="true"></i>
                             <span class="text-xl font-bold text-white hover:no-underline hover:opacity-75"> omnia1699@gmail.com </span>
                         </li>
-                        <li class="mb-5">
+                        <li class="mb-5 flex items-center">
                             <i class="fa fa-linkedin-square fa-lg text-blu mr-2" aria-hidden="true"></i>
                             <a class="text-xl font-bold text-white hover:no-underline hover:opacity-75" href="https://www.linkedin.com/in/omnia-eladawy-624847b4/" target="_blank">LinkedIn</a>
                         </li>
-                        <li>
+                        <li class="flex items-center">
                             <i class="fa fa-twitter fa fa-linkedin-square fa-lg text-blu mr-2" aria-hidden="true"></i>
                             <a class="text-xl font-bold text-white hover:no-underline hover:opacity-75" href="https://twitter.com/mony_o3adawy" target="_blank">Twitter</a>
                         </li>

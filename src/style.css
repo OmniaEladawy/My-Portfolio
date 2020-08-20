@@ -42,4 +42,26 @@
     .project-pic {
         height:450px;
     }
+}   
+
+@media only screen and (min-width: 650px) and (min-width: 1100px){
+        .detail-pic {
+            height:500px;
+        }    
 }
+
+@media only screen and (min-width: 1100px) {
+    .detail-pic {
+        height:600px;
+    }    
+}
+
+.blog-det {
+    margin-top: 28rem;
+}
+@media only screen and (min-width: 700px) {
+    .blog-det {
+        margin-top: 40rem;
+    }
+}   
+
