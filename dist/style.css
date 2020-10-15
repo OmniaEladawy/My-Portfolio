@@ -21751,31 +21751,32 @@ video {
   display: none;
 }
 
+.image-shadow {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5),
+                0 10px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (min-width: 1000px) {
+  .img-blog {
+    height:500px;
+  }
+}
+
 @media only screen and (min-width: 650px) {
   .project-pic {
     height:450px;
   }
 }
 
-@media only screen and (min-width: 650px) and (min-width: 1100px){
+@media only screen and (min-width: 700px) and (max-width: 1100px){
   .detail-pic {
-    height:500px;
+    height:450px;
   }
 }
 
 @media only screen and (min-width: 1100px) {
   .detail-pic {
     height:600px;
-  }
-}
-
-.blog-det {
-  margin-top: 28rem;
-}
-
-@media only screen and (min-width: 700px) {
-  .blog-det {
-    margin-top: 40rem;
   }
 }
 
@@ -106173,5 +106174,6 @@ video {
   .xl\:delay-1000 {
     transition-delay: 1000ms;
   }
-}   
+}
+
 
